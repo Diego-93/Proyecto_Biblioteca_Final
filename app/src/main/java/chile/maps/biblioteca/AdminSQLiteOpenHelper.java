@@ -1,11 +1,8 @@
 package chile.maps.biblioteca;
 
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-
 import androidx.annotation.Nullable;
-
 
 public class AdminSQLiteOpenHelper {
 
