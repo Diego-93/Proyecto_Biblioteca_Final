@@ -26,7 +26,10 @@ public class SQLite_act {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
+
+    public SQLiteDatabase getWritableDatabase() {
     }
+}
 
 }
 
