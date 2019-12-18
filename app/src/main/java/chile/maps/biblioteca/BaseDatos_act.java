@@ -21,7 +21,6 @@ public class BaseDatos_act extends AppCompatActivity {
         et3 = (EditText)findViewById(R.id.precio);
     }
 
-
     public void añadirOrd(View v){
 
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "Biblioteca", null, 1);
@@ -39,7 +38,6 @@ public class BaseDatos_act extends AppCompatActivity {
 
             Toast.makeText(this, "Se registro un Libro", Toast.LENGTH_LONG).show();
         }
-
     }
-
 }
+
