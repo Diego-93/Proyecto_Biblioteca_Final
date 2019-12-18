@@ -68,6 +68,7 @@
                 android:ems="10"
                 android:hint="Ingrese Precios de  Libro"
                 android:inputType="textPersonName"
+                android:onClick="añadirOrd"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -94,12 +95,14 @@
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="añadirOrd"
                 android:text="Modificar Libro" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="añadirOrd"
                 android:text="Eliminar Libro" />
         </LinearLayout>
 

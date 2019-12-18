@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class BaseDatos_act extends AppCompatActivity {
 
-    private EditText et1, et2, et3;
+    private EditText et1, et2, et3, et4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class BaseDatos_act extends AppCompatActivity {
         et1 = (EditText)findViewById(R.id.codigo);
         et2 = (EditText)findViewById(R.id.nombre);
         et3 = (EditText)findViewById(R.id.precio);
+        et4 = (EditText)findViewById(R.id.precio);
     }
 
     public void añadirOrd(View v){
@@ -32,6 +33,7 @@ public class BaseDatos_act extends AppCompatActivity {
             registro.put("codigo", et1.getText().toString());
             registro.put("nombre", et2.getText().toString());
             registro.put("precio", et3.getText().toString());
+            registro.put("precios", et4.getText().toString());
 
             BaseDeDatos.insert("Libros", null, registro);
             BaseDeDatos.close();
