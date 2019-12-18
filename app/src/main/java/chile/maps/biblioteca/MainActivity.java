@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     class Task extends AsyncTask<String, Void, String>
     {
 
@@ -77,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         }
     }
-
 
     public void Home(View v)
     {
