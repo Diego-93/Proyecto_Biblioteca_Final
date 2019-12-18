@@ -19,13 +19,13 @@ public class SQLite_act {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase BaseDeDatos) {
+    public onCreate(SQLiteDatabase BaseDeDatos) {
 
         BaseDeDatos.execSQL("CREATE TABLE Libros (codigo int primary key, nombre text, precio float)");
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
+    public onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
 
     public SQLiteDatabase getWritableDatabase() {
     }

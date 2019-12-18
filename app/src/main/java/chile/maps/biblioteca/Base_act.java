@@ -22,7 +22,7 @@ public class Base_act extends AppCompatActivity {
     }
 
 
-    public void añadirOrden(View v){
+    public void añadirOrd(View v){
 
         SQLite_act admin = new SQLite_act(this, "Biblioteca", null, 1);
         SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
