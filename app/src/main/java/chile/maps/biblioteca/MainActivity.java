@@ -79,12 +79,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
     public void Home(View v)
     {
         Intent i = new Intent(this, Home_act.class);
