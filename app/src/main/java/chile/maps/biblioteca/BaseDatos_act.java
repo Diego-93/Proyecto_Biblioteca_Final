@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Base_act extends AppCompatActivity {
+public class BaseDatos_act extends AppCompatActivity {
 
     private EditText et1, et2, et3;
 
@@ -24,7 +24,7 @@ public class Base_act extends AppCompatActivity {
 
     public void añadirOrd(View v){
 
-        SQLite_act admin = new SQLite_act(this, "Biblioteca", null, 1);
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "Biblioteca", null, 1);
         SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
 
         if(!et1.getText().toString().isEmpty())

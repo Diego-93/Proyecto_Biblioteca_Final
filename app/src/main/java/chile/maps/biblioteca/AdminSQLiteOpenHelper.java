@@ -7,11 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 import androidx.annotation.Nullable;
 
 
-public class SQLite_act {
+public class AdminSQLiteOpenHelper {
 
-    public SQLite_act(@Nullable Context context,
-                      @Nullable String name,
-                      @Nullable SQLiteDatabase.CursorFactory factory, int version)
+    public AdminSQLiteOpenHelper(@Nullable Context context,
+                                 @Nullable String name,
+                                 @Nullable SQLiteDatabase.CursorFactory factory, int version)
     {
         super(context, name, factory, version);
     }
@@ -26,8 +26,9 @@ public class SQLite_act {
     public onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
 
     public SQLiteDatabase getWritableDatabase() {
+        }
+
     }
-}
 
 }
 
