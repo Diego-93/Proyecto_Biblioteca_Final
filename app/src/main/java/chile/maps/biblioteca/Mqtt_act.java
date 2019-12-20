@@ -56,7 +56,7 @@ public class Mqtt_act extends AppCompatActivity {
 
     }
 
-    public void m1(View v){
+    public void but1(View v){
         String topic = topicStr;
         String mensaje = "El Principito";
         try{
@@ -67,17 +67,7 @@ public class Mqtt_act extends AppCompatActivity {
         }
     }
 
-    public void m2(View v){
-        String topic = topicStr;
-        String mensaje = "Game Of Thrones";
-        try{
-            client.publish(topic,mensaje.getBytes(),0,false);
-        }
-        catch (Exception e){
-            e.printStackTrace();
-        }
-    }
-    public void m3(View v){
+    public void but2(View v){
         String topic = topicStr;
         String mensaje = "El Diablo III";
         try{
@@ -87,7 +77,17 @@ public class Mqtt_act extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public void m4(View v){
+    public void but3(View v){
+        String topic = topicStr;
+        String mensaje = "Game Of Thrones";
+        try{
+            client.publish(topic,mensaje.getBytes(),0,false);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    public void but4(View v){
         String topic = topicStr;
         String mensaje = "Donde Esta Constanza";
         try{
@@ -97,7 +97,7 @@ public class Mqtt_act extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public void m5(View v){
+    public void but5(View v){
         String topic = topicStr;
         String mensaje = "La Guerra del pacifico";
         try{

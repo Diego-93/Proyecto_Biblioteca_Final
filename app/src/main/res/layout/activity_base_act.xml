@@ -85,21 +85,21 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/but4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="añadirOrd"
                 android:text="Añadir Libro" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/but5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="añadirOrd"
                 android:text="Modificar Libro" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/but3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="añadirOrd"
@@ -189,20 +189,20 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/but4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="añadirOrd"
             android:text="Añadir Libro" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/but5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Modificar Libro" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/but3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Eliminar Libro" />
@@ -216,13 +216,13 @@
         android:text="Añadir Libro" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/but3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Modificar Libro" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/but3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eliminar Libro" />

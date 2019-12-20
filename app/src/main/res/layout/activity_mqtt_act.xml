@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Mqtt_act">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="252dp"
+            android:layout_height="134dp"
+            android:text="MQTT BOOKS"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.065" />
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="226dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="56dp"
+            android:onClick="but1"
+            android:text="El Principito"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="224dp"
+            android:layout_height="53dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="but2"
+            android:text="El Diablo III"
+            app:layout_constraintBottom_toTopOf="@+id/but3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but1"
+            app:layout_constraintVertical_bias="0.931" />
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="226dp"
+            android:layout_height="56dp"
+            android:onClick="but3"
+            android:text="Game Of Thrones"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="368dp" />
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="28dp"
+            android:onClick="but4"
+            android:text="Donde Esta Constanza"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but3" />
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="225dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="120dp"
+            android:onClick="but5"
+            android:text="La Guerra Del Pacifico"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/but4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
