@@ -92,7 +92,7 @@
                 android:text="Añadir Libro" />
 
             <Button
-                android:id="@+id/but5"
+                android:id="@+id/but2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="añadirOrd"
@@ -196,7 +196,7 @@
             android:text="Añadir Libro" />
 
         <Button
-            android:id="@+id/but5"
+            android:id="@+id/but2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Modificar Libro" />
