@@ -19,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BaseDatos_act"></activity>
+        <activity android:name=".GitHub_act"></activity>
+        <activity android:name=".BaseDatos_act" />
         <activity android:name=".AdminSQLiteOpenHelper" />
         <activity android:name=".Libros_act" />
         <activity android:name=".Location_act" />

@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 
 public class AdminSQLiteOpenHelper {
 
-    public AdminSQLiteOpenHelper(@Nullable Context context,
+    private AdminSQLiteOpenHelper(@Nullable Context context,
                                  @Nullable String name,
                                  @Nullable SQLiteDatabase.CursorFactory factory, int version)
     {
@@ -22,7 +22,7 @@ public class AdminSQLiteOpenHelper {
     @Override
     public onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
 
-    public SQLiteDatabase getWritableDatabase() {
+    SQLiteDatabase getWritableDatabase() {
         }
 
     }
