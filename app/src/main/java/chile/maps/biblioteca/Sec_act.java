@@ -17,7 +17,7 @@ public class Sec_act extends AppCompatActivity {
         setContentView(R.layout.activity_sec_act);
     }
 
-    public void Incidencia1(View v)
+    public void inc1(View v)
     {
         Toast inc1 = Toast.makeText((getApplicationContext()),"Incidencia ocurrida", Toast.LENGTH_SHORT);
         inc1.setGravity(Gravity.CENTER,0,0);
