@@ -19,12 +19,12 @@ public class Sec_act extends AppCompatActivity {
 
     public void Incidencia1(View v)
     {
-        Toast toast1 = Toast.makeText((getApplicationContext()),"Incidencia ocurrida", Toast.LENGTH_SHORT);
-        toast1.setGravity(Gravity.CENTER,0,0);
+        Toast inc1 = Toast.makeText((getApplicationContext()),"Incidencia ocurrida", Toast.LENGTH_SHORT);
+        inc1.setGravity(Gravity.CENTER,0,0);
     }
-    public void Incidencia2(View v)
+    public void inc2(View v)
     {
-        Toast toast2 = Toast.makeText((getApplicationContext()),"Incidencia ocurrida 2", Toast.LENGTH_SHORT);
-        toast2.setGravity(Gravity.CENTER,0,0);
+        Toast inc2 = Toast.makeText((getApplicationContext()),"Incidencia ocurrida 2", Toast.LENGTH_SHORT);
+        inc2.setGravity(Gravity.CENTER,0,0);
     }
 }
